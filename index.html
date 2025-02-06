@@ -4,32 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muslim Student Association</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Club Info</a></li>
-                <li><a href="#">Islam</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">MSA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Club Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Islam</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero text-center py-5">
             <h1>Muslim Student Association<br>Of Marlboro</h1>
         </section>
 
-        <section class="images">
+        <section class="images d-flex justify-content-center gap-4">
             <div class="image-container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Masjid_e_Nabawi_by_Alfaurez.jpg" alt="Masjid Nabawi">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Masjid_e_Nabawi_by_Alfaurez.jpg" alt="Masjid Nabawi" class="img-fluid rounded">
             </div>
             <div class="image-container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Abraj_Al_Bait_Towers.JPG" alt="Kaaba in Makkah">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Abraj_Al_Bait_Towers.JPG" alt="Kaaba in Makkah" class="img-fluid rounded">
             </div>
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
