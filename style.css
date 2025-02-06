@@ -1,0 +1,41 @@
+/* Step 1: Basic Reset and Font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navbar {
+    background-color: #008000;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+}
