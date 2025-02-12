@@ -38,7 +38,7 @@ a {
     background-color: #ccc;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -67,7 +67,10 @@ body {
 }
 p {
     text-align: center;
+    font-family: sans-serif;
+
 }
 h1 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
 }
